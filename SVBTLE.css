@@ -2,18 +2,25 @@
 
 }
 
+div {
+	
+}
+
 .magazine {
 	font-family: serif;
 	font-weight: 400;
+	position: absolute;
 }
 
 /*Left Sidebar*/
 .sidebar-left {
+	border-right: solid 2px;
 	position: fixed;
 	left: 0;
 	top: 0;
 	bottom: 0;
-	border-right: solid 2px;
+	width: 125px;
+
 
 
 }
@@ -39,21 +46,64 @@
 
 /*middle-left */
 .middle-left {
+	border-right: solid 2px;
+	margin-left: 125px;
+	float: left;
+	width: 57%;
+	font-size: 20px;
+}
+
+#title-home {
 
 }
 
-/*middle-left */
+#featured {
+
+}
+
+#article-title {
+
+}
+
+#article-author {
+
+}
+
+#indent {
+
+}
+
+
+
+
+/*middle-right */
 .middle-right {
+	border-right: solid 2px;
+	width: 30%;
+	margin-left: 800px;
 
 }
+
+.title-rightside {
+
+}
+
+
+
 
 /*Right Sidebar*/
 .sidebar-right {
+	width: 5%;
+	float: right;
 
 }
 
 /*footer*/
 .footer {
-
+	border: dashed 2px;
+	margin: 0;
+	width: 100%;
+	position: relative;
+	float: bottom;
 }
 
