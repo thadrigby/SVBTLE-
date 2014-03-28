@@ -1,0 +1,61 @@
+.container {
+
+}
+
+.magazine {
+	font-family: serif;
+	font-weight: 400;
+	background-color: yellow;
+
+}
+
+/*Left Sidebar*/
+.sidebar-left {
+	position: fixed;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	border-right: solid 2px;
+
+
+}
+
+#logo {
+	margin-top: 35px;
+	margin-bottom: 20px;
+	margin-left: 52;
+
+}
+
+#logo img {
+	background: transparent;
+	float: right;
+	margin-right: 15px;
+	width: 42px;
+	height: 42px;
+}
+
+#nav-list {
+
+}
+
+/*middle-left */
+.middle-left {
+
+}
+
+/*middle-left */
+.middle-right {
+
+}
+
+/*Right Sidebar*/
+.sidebar-right {
+
+}
+
+/*footer*/
+.footer {
+
+}
+
