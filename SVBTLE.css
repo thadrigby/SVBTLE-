@@ -1,6 +1,4 @@
-.container {
 
-}
 
 div {
 	
@@ -9,7 +7,7 @@ div {
 .magazine {
 	font-family: serif;
 	font-weight: 400;
-	position: absolute;
+
 }
 
 /*Left Sidebar*/
@@ -20,8 +18,6 @@ div {
 	top: 0;
 	bottom: 0;
 	width: 125px;
-
-
 
 }
 
@@ -44,13 +40,19 @@ div {
 
 }
 
-/*middle-left */
+/*middle*/
+.middle {
+	
+
+}
+
 .middle-left {
 	border-right: solid 2px;
 	margin-left: 125px;
 	float: left;
-	width: 57%;
-	font-size: 20px;
+	width: 675px;
+	font-size: 18px;
+
 }
 
 #title-home {
@@ -58,7 +60,7 @@ div {
 }
 
 #featured {
-
+	
 }
 
 #article-title {
@@ -75,12 +77,11 @@ div {
 
 
 
-
-/*middle-right */
 .middle-right {
+	margin-top: 50px;
 	border-right: solid 2px;
-	width: 30%;
-	margin-left: 800px;
+	width: 300px;
+	margin-left: 825px;
 
 }
 
@@ -93,18 +94,23 @@ div {
 
 /*Right Sidebar*/
 .sidebar-right {
-	width: 5%;
-	float: right;
+	border: 2px;
+	position: fixed;
+	right: 0;
+	top: 0;
+	width: 75px;
+	height: 100%;
 
 }
 
 /*footer*/
 .footer {
 	clear: both;
-	border: dashed 2px;
+	border: solid grey 2px;
 	margin: 0;
 	width: 100%;
 	position: relative;
+	bottom: 0;
 	float: bottom;
 }
 
